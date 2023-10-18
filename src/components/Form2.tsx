@@ -8,10 +8,6 @@ type User = {
     username: string | undefined;
 }
 
-const person = {
-
-}
-
 // const person: User = {name: undefined};
 
 /**
