@@ -1,10 +1,8 @@
-import { DevSupport } from "@react-buddy/ide-toolbox";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
-import { ComponentPreviews, useInitial } from "./dev";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -13,11 +11,7 @@ const root = ReactDOM.createRoot(
 root.render(
     <React.StrictMode>
         <BrowserRouter>
-            <DevSupport ComponentPreviews={ComponentPreviews}
-                        useInitialHook={useInitial}
-            >
                 <App/>
-            </DevSupport>
         </BrowserRouter>
     </React.StrictMode>
 );
