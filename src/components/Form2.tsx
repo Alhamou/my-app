@@ -31,7 +31,8 @@ const Form2 = ()=>{
         return false
     }
     return(
-        <div id="roor">
+        <div>
+            <div className="p-3">
             <form onSubmit={handleSubmit(onSubmit)}>
                 <label htmlFor="myInput">Name: </label>
                 <input {...register('name')}  className="form-control" type="search"/>
@@ -44,6 +45,7 @@ const Form2 = ()=>{
                     {JSON.stringify(user)}
                 </code>
             </form>
+        </div>
         </div>
     )
 }

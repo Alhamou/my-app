@@ -3,6 +3,7 @@ import React from "react";
 const Form1 = () => {
   return (
     <div>
+      <div className="p-3">
       <div className="input-group mb-3">
         <span className="input-group-text" id="basic-addon1">
           @
@@ -81,6 +82,7 @@ const Form1 = () => {
           className="form-control"
           aria-label="With textarea"
         ></textarea>
+      </div>
       </div>
     </div>
   );

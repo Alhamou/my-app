@@ -3,6 +3,7 @@ import React from "react";
 const Form3 = () => {
   return (
     <div>
+      <div className="p-3">
       <div className="input-group mb-3">
         <button
           className="btn btn-outline-secondary"
@@ -65,6 +66,7 @@ const Form3 = () => {
         <button className="btn btn-outline-secondary" type="button">
           Button
         </button>
+      </div>
       </div>
     </div>
   );
